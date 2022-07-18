@@ -5,12 +5,8 @@ import { GMapModule } from 'primeng/gmap';
 
 
 @NgModule({
-  declarations: [
-    CantinaerComponent
-  ],
-  imports: [
-    CommonModule,
-    GMapModule
-  ]
+  declarations: [CantinaerComponent],
+  imports: [CommonModule, GMapModule],
+  exports: [CantinaerComponent],
 })
-export class MainModule { }
+export class MainModule {}

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-cantinaer',
+  selector: 'cantinaer',
   templateUrl: './cantinaer.component.html',
   styleUrls: ['./cantinaer.component.scss']
 })
