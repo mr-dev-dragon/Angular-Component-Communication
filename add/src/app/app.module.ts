@@ -1,20 +1,22 @@
+
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
+import { HeaderModule } from './header/header.module';
+
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
+
+
+import { AccordionModule } from 'primeng/accordion';
+import { FooterModule } from './footer/footer.module';
+import { MainModule } from './main/main.module';
+
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HeaderComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  declarations: [AppComponent],
+  imports: [BrowserModule, AppRoutingModule, AccordionModule ,   HeaderModule ,FooterModule ,MainModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
