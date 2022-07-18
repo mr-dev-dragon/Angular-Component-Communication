@@ -9,11 +9,7 @@ import { Component, NgModule, OnInit } from '@angular/core';
   styleUrls: ['./sidebar.component.scss'],
 })
 export class SidebarComponent implements OnInit {
-
-  constructor() {
-
-  }
-  ngOnInit(): void {
-
-  }
+  showFiller = false;
+  constructor() {}
+  ngOnInit(): void {}
 }

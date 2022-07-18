@@ -12,7 +12,7 @@ import { AccordionModule } from 'primeng/accordion';
 import { FooterModule } from './footer/footer.module';
 import { MainModule } from './main/main.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
+import { MatSidenavModule } from '@angular/material/sidenav';
 
 @NgModule({
   declarations: [AppComponent],
@@ -25,6 +25,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MainModule,
     BrowserAnimationsModule,
     MatSliderModule,
+    MatSidenavModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

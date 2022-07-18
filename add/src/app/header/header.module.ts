@@ -16,13 +16,18 @@ import { MatSidenavModule } from '@angular/material/sidenav';
     HeaderComponent,
     HeroSectionComponent,
   ],
-  imports: [CommonModule, MatSliderModule, MatToolbarModule, MatIconModule],
+  imports: [
+    CommonModule,
+    MatSliderModule,
+    MatToolbarModule,
+    MatIconModule,
+    MatSidenavModule,
+  ],
   exports: [
     SidebarComponent,
     NavbarComponent,
     HeaderComponent,
     HeroSectionComponent,
-    MatSidenavModule,
   ],
 })
 export class HeaderModule {}
