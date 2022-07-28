@@ -1,4 +1,9 @@
-# A
+# Angular-Component-Communication
+<center>
+<img src="https://raw.githubusercontent.com/Ahmed-dev-dragon/Angular-Component-Communication/main/a/src/assets/cccc.png">
+</center>
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.5.
 
