@@ -1,0 +1,12 @@
+
+
+  img {
+  width: 300px;
+ border: #fff solid 2px;
+  border-radius: 10px;
+}
+.invert {
+filter: invert(100%);
+}
+
+

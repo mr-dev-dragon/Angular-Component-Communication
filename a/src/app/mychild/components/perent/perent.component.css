@@ -2,12 +2,12 @@
 .app-perent
 {
     background-color: #1ae6ca;
-    padding: 50px;
-    padding-bottom: 0px;
-
+    padding: 40px;
+    padding-bottom: 40px;
+max-width: 100%;
     margin: 50px;
 
-    height: 85vh;
+    height: 95vh;
     border-radius: 20px;
     border: 3px solid #fff;
 }

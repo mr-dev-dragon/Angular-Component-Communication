@@ -4,6 +4,7 @@ import { ChildComponent } from './components/child/child.component';
 import { PerentComponent } from './components/perent/perent.component';
 import { AlertComponent } from './components/alert/alert.component';
 import { FromComponent } from './components/from/from.component';
+import { ImgComponent } from './components/img/img.component';
 
 
 
@@ -13,6 +14,7 @@ import { FromComponent } from './components/from/from.component';
     PerentComponent,
     AlertComponent,
     FromComponent,
+    ImgComponent,
   ],
   imports: [CommonModule],
   exports: [ChildComponent, PerentComponent, AlertComponent, FromComponent],

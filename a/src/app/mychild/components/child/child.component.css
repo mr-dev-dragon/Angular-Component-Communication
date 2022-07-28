@@ -1,10 +1,10 @@
 .app-childd
 {
     background-color: #1aace6;
-    padding: 50px;
+    padding: 40px;
     margin: auto;
-    padding-bottom: 0px;
-    height: 40vh;
+
+    height: 45vh;
     border-radius: 15px;
     border: 3px solid #fff;
 }
