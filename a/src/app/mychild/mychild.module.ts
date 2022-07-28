@@ -8,9 +8,14 @@ import { FromComponent } from './components/from/from.component';
 
 
 @NgModule({
-  declarations: [ChildComponent, PerentComponent, AlertComponent, FromComponent],
+  declarations: [
+    ChildComponent,
+    PerentComponent,
+    AlertComponent,
+    FromComponent,
+  ],
   imports: [CommonModule],
-  exports: [ChildComponent, PerentComponent],
+  exports: [ChildComponent, PerentComponent, AlertComponent, FromComponent],
   providers: [],
   bootstrap: [PerentComponent],
 })

@@ -3,13 +3,16 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-from',
   templateUrl: './from.component.html',
-  styleUrls: ['./from.component.css']
+  styleUrls: ['./from.component.css'],
 })
 export class FromComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
+  ngOnInit(): void {}
+  onSubmit() {
+    console.log('submit');
   }
-
+  onClick() {
+    console.log('click');
+  }
 }
