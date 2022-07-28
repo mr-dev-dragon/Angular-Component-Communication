@@ -1,0 +1,18 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css");
+
+.alert-primary
+{
+    background-color: #e61a57dc;
+    color: #fff;
+
+
+}
+.alert-success {
+    background-color: #3dbb0bb4;
+    color: #fff;
+}
+.alert-warning
+{
+    background-color: #f1b708de;
+    color: #fff;
+}

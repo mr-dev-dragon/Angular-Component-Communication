@@ -3,8 +3,35 @@
 {
     background-color: #1ae6ca;
     padding: 50px;
+    padding-bottom: 0px;
+
     margin: 50px;
-    margin: auto;
+
     height: 85vh;
-  border-radius: 20px;
+    border-radius: 20px;
+    border: 3px solid #fff;
+}
+.max{
+  max-width: 500px !important;
+  display: flex;
+    margin-right: -120px;
+  margin-top: -50px;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.col {
+  float: left;
+  width: 50%;
+  padding: 10px;
+/* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }

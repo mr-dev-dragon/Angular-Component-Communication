@@ -1,0 +1,11 @@
+
+
+
+<form (ngSubmit)="onSubmit()" #form="ngForm">
+
+    <input type="text" [(ngModel)]="name" />
+    <input type="url" [(ngModel)]="url" />
+    <textarea [(ngModel)]="text"></textarea>
+    <button (click)="onClick()">Submit</button>
+    
+</form>
