@@ -1,9 +1,45 @@
 .url
 {
-  padding:10px;
-  border-radius: 10px;
+  height: 40px ;
+  border-radius: 10px 0px 0px 10px ;
   border: 2px solid rgb(255, 255, 255);
   margin-top: -50px;
+    padding: 10px;
+
 }
 
 *:focus {outline:none !important}
+
+
+.addhere{
+    background-color: #1ae6ca;
+  border-radius: 0px   ;
+  height: 40px ;
+  border: 2px solid rgb(255, 255, 255);
+  margin-top: -50px;
+     -moz-box-shadow:    inset 0 0 10px #fff;
+   -webkit-box-shadow: inset 0 0 10px #fff;
+   box-shadow:         inset 0 0 10px #fff;
+
+}
+.addtochild{
+      background-color: #1aace6;
+    margin-top: 50px;
+  border-radius: 0px  10px 10px 0px ;
+  height: 40px ;
+  border: 2px solid rgb(255, 255, 255);
+   -moz-box-shadow:    inset 0 0 10px #fff;
+   -webkit-box-shadow: inset 0 0 10px #fff;
+   box-shadow:         inset 0 0 10px #fff;
+
+}
+
+
+
+
+
+
+
+
+
+
